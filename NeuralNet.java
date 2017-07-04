@@ -20,7 +20,7 @@ import java.lang.Math;
  * Each weight can be adjusted so that the error function decreases.
  * This usues backpropagation. Backpropagation is a method to calculate the partial derivative
  * of the error with respect to each weight.
- * Basically, by using the chain rule approximately 2.64 billion (exaggeration) times, you get
+ * Basically, by using the chain rule many times, you get
  * the formula for the deltas of each neuron to minimize the error function on a single case.
  * 
  * Another important term is stochastic gradient descent. Once we have used backpropagation to
